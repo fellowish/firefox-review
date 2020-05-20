@@ -1,6 +1,6 @@
 # Firefox Review
 
-Firefox Review is a css redesign of the browser, changing the look of Firefox to match the color scheme and design language of Firefox Preview, a newer mobile version of Firefox being developed.
+Firefox Review is a css redesign of the browser, changing the look of Firefox to match the color scheme and design language of [Firefox Preview](https://play.google.com/store/apps/details?id=org.mozilla.fenix&hl=en_US), a newer mobile version of Firefox being developed.
 
 ## Screenshots
 
