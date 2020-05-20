@@ -31,18 +31,19 @@ Don't know where \chrome is? It's simple:
 
 ### Enabling
 Once you have that installed, you need to enable css alterations in Firefox:
-* Open Firefox
+* Open Firefox.
 
-* In the urlbar, type in:
-	* about:config
+* In the urlbar, type in about:config
 
-* "Accept the risk"
+* "Accept the risk".
 
 * Search for toolkit.legacyUserProfileCustomizations.stylesheets
-	* enable it, obviously
 
-* Close firefox and reopen it!
+* Enable it, obviously.
 
+* Close firefox and reopen it.
+
+Once you've done that, Firefox Review should be up and running.
 
 ## License
 
@@ -51,7 +52,9 @@ This project is licensed under the [MIT License](LICENSE.md).
 ## Acknowledgments
 
 Heavily modified mixture of code from multiple sources, but mostly:
+
 • [u/dpcdpc11](https://www.reddit.com/user/dpcdpc11) and
+
 • [u/muckSponge](https://www.reddit.com/user/muckSponge)
 
 Feel free to drop by and look into their projects, they're much better at this than me.
