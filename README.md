@@ -4,13 +4,13 @@ Firefox Review is a css redesign of the browser, changing the look of Firefox to
 
 ## Screenshots
 
-![Welcome](https://i.imgur.com/AxQE1Sl.png)
+![Welcome](https://i.imgur.com/fpsDT06.png)
 
-![To](https://i.imgur.com/IBrp7VU.jpg)
+![To](https://i.imgur.com/AxQE1Sl.png)
 
-![Firefox](https://i.imgur.com/eGTec3W.png)
+![Firefox](https://i.imgur.com/IBrp7VU.jpg)
 
-![Review](https://i.imgur.com/nD7h80j.jpg)
+![Review](https://i.imgur.com/eGTec3W.png)
 
 ## Installing
 
