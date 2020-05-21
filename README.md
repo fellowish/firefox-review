@@ -47,7 +47,7 @@ Once you've done that, Firefox Review should be up and running.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE.md).
+This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
