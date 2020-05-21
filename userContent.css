@@ -1,0 +1,75 @@
+/*================ IMPORT USERCHROME.CSS ================*/
+@import "userChrome.css";
+
+@media (prefers-color-scheme: dark) {
+:root {
+	--page_bg_color: var(--dark_color1);
+	--search_bg_color: var(--dark_color2);
+	--search_border_color: var(--dark_color3);
+	--search_border_active_color: var(--dark_color4);
+	--search_txt_color: var(--word_color3);
+}
+}
+
+@media (prefers-color-scheme: light) {
+:root {
+	--page_bg_color: var(--snow_color1);
+	--search_bg_color: var(--snow_color2);
+	--search_border_color: var(--snow_color3);
+	--search_border_active_color: var(--snow_color3);
+	--search_txt_color: var(--dark_color4);
+}
+}
+
+/*================== FIREFOX BG COLOR ==================*/
+@-moz-document url("about:newtab"), url("about:home"), url("about:blank"), url("about:support"), url("about:config") {
+ body { background-color: var(--page_bg_color) !important;}
+ html {--in-content-page-background: var(--page_bg_color) !important;}
+}
+
+/*================== SEARCH BAR ==================*/
+.search-wrapper input {
+	transition: all 0.3s ease !important;
+    background: var(--search_bg_color) var(--newtab-search-icon) 12px center no-repeat !important;
+	background-size: 20px !important;
+	border: 1px solid !important;
+	border-color: var(--search_border_color) !important;
+	box-shadow: none !important;
+	color: var(--search_txt_color) !important;
+}
+.search-wrapper .search-inner-wrapper:hover input,
+.search-wrapper .search-inner-wrapper:active input,
+.search-wrapper input:focus {
+	border-color: var(--search_border_active_color) !important;
+}
+
+.search-wrapper .search-button,
+.search-wrapper .search-button {
+	transition: all 0.3s ease !important;
+	fill: var(--search_txt_color) !important;
+}
+.search-wrapper .search-button:focus,
+.search-wrapper .search-button:hover {
+    background-color: var(--search_border_active_color) !important;
+}
+
+/*================== READER VIEW ==================*/
+@-moz-document url-prefix("about:reader") {
+	html {
+		background: var(--dark_color1);
+	}
+	toolbar > reader-toolbar {
+		border-radius: 3px !important;
+	}
+  body.dark {
+    --toolbar-bgcolor: var(--dark_color2) !important;
+    --toolbar-border: var(--dark_color1) !important;
+    --toolbar-hover: var(--dark_color3) !important;
+    --popup-bgcolor: var(--dark_color2) !important;
+    --popup-border: var(--dark_color3) !important;
+    --font-color: var(--word_color3) !important;
+    --icon-fill: var(--word_color3) !important;
+    background: var(--dark_color1) !important;
+}
+
+  }
