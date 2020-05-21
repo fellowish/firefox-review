@@ -25,7 +25,7 @@ Don't know where \chrome is? It's simple:
 * Under "Application Basics", look for the "Profile Folder". Click "Open Folder".
 
 * That's where the \chrome folder should be. It should look something like:
-	* C:\Users\[username]\AppData\Roaming\Mozilla\Firefox\Profiles\[profileid]\chrome
+	* C:\Users\username\AppData\Roaming\Mozilla\Firefox\Profiles\profileid\chrome
 
 * If you can't find the chrome folder, feel free to make one and extract the files there. 
 
