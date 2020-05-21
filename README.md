@@ -59,5 +59,5 @@ Heavily modified mixture of code from multiple sources, but mostly:
 
 Feel free to drop by and look into their projects, they're much better at this than me.
 
-If you're feeling generous, feel free to [buy me a coffee](https://ko-fi.com/fellowish)!
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E51QF8V)
 
