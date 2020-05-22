@@ -1,33 +1,31 @@
 # Firefox Review
 
-Firefox Review is a css redesign of the browser, changing the look of Firefox to match the color scheme and design language of [Firefox Preview](https://play.google.com/store/apps/details?id=org.mozilla.fenix&hl=en_US), a newer mobile version of Firefox being developed.
+Firefox Review is a css redesign of the browser, changing the look of Firefox to match the color scheme and design language of [Firefox Preview](https://play.google.com/store/apps/details?id=org.mozilla.fenix&hl=en_US), a newer mobile version of Firefox being developed. With v1.1, both light and dark themes are available, matching the theme of your computer. Of course, there are also files available if you're simply looking for only the light or dark version.
 
 ## Screenshots
 
-![Welcome](https://i.imgur.com/fpsDT06.png)
+![Light and Dark](https://i.imgur.com/Z1BnG9P.jpg)
 
-![To](https://i.imgur.com/AxQE1Sl.png)
+![Moon](https://i.imgur.com/AxQE1Sl.png)
 
-![Firefox](https://i.imgur.com/IBrp7VU.jpg)
-
-![Review](https://i.imgur.com/eGTec3W.png)
+![Sun](https://i.imgur.com/GLj4IWj.jpg)
 
 ## Installing
 
 ### Extraction
-Extract userChrome.css userContent.css from the .rar file into your \chrome folder.
+Extract userChrome.css userContent.css from the .zip file into your \chrome folder.
 Don't know where \chrome is? It's simple:
 * Open Firefox
 
-* In the urlbar, type in:
-	* about:support
+* In the urlbar, type in:	about:support
 
 * Under "Application Basics", look for the "Profile Folder". Click "Open Folder".
 
-* That's where the \chrome folder should be. It should look something like:
-	* C:\Users\username\AppData\Roaming\Mozilla\Firefox\Profiles\profileid\chrome
+* That's where the \chrome folder should be. It should look something like:	C:\Users\username\AppData\Roaming\Mozilla\Firefox\Profiles\profileid\chrome
 
-* If you can't find the chrome folder, feel free to make one and extract the files there. 
+* If you can't find the chrome folder, feel free to make one and extract the files there.
+
+If you want to have an adaptive theme that changes automatically to the theme of your Windows OS, then extract files from the Adaptive folder. Otherwise, simply extract the files from the other two folders, Light or Dark, and choose which one you want. These don't change.
 
 ### Enabling
 Once you have that installed, you need to enable css alterations in Firefox:
@@ -39,7 +37,7 @@ Once you have that installed, you need to enable css alterations in Firefox:
 
 * Search for toolkit.legacyUserProfileCustomizations.stylesheets
 
-* Enable it, obviously.
+* Enable it.
 
 * Close firefox and reopen it.
 
