@@ -1,0 +1,65 @@
+/*================ IMPORT USERCHROME.CSS ================*/
+@import "userChrome.css";
+
+:root {
+	--page_bg_color: #1c1b21;
+	--search_bg_color: #33313c;
+	--search_border_color: #4b4757;
+	--search_border_active_color: #635d73;
+	--search_txt_color: #e1e0e6;
+	--firefox_color: #fefafe;
+}
+
+/*================== FIREFOX BG COLOR ==================*/
+@-moz-document url("about:newtab"), url("about:home"), url("about:blank"), url("about:support"), url("about:config") {
+ body { background-color: var(--page_bg_color) !important;}
+ html {--in-content-page-background: var(--page_bg_color) !important;}
+ .wordmark	{fill: var(--firefox_color) !important;}
+}
+
+/*================== SEARCH BAR ==================*/
+.search-wrapper input {
+	transition: all 0.3s ease !important;
+    background: var(--search_bg_color) var(--newtab-search-icon) 12px center no-repeat !important;
+	background-size: 20px !important;
+	border: 1px solid !important;
+	border-color: var(--search_border_color) !important;
+	box-shadow: none !important;
+	color: var(--search_txt_color) !important;
+}
+.search-wrapper .search-inner-wrapper:hover input,
+.search-wrapper .search-inner-wrapper:active input,
+.search-wrapper input:focus {
+	border-color: var(--search_border_active_color) !important;
+}
+
+.search-wrapper .search-button,
+.search-wrapper .search-button {
+	transition: all 0.3s ease !important;
+	fill: var(--search_txt_color) !important;
+}
+.search-wrapper .search-button:focus,
+.search-wrapper .search-button:hover {
+    background-color: var(--search_border_active_color) !important;
+}
+
+/*================== READER VIEW ==================*/
+@-moz-document url-prefix("about:reader") {
+	html {
+		background: #1c1b21;
+	}
+	toolbar > reader-toolbar {
+		border-radius: 3px !important;
+	}
+  body {
+    --toolbar-bgcolor: #33313c !important;
+    --toolbar-border: #1c1b21 !important;
+    --toolbar-hover: #4b4757 !important;
+    --popup-bgcolor: #33313c !important;
+    --popup-border: #4b4757 !important;
+    --font-color: #e1e0e6 !important;
+    --icon-fill: #e1e0e6 !important;
+    background: #1c1b21 !important;
+}
+
+  }
