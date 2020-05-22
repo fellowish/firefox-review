@@ -2,6 +2,8 @@
 
 Firefox Review is a css redesign of the browser, changing the look of Firefox to match the color scheme and design language of [Firefox Preview](https://play.google.com/store/apps/details?id=org.mozilla.fenix&hl=en_US), a newer mobile version of Firefox being developed. With v1.1, both light and dark themes are available, matching the theme of your computer. Of course, there are also files available if you're simply looking for only the light or dark version.
 
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E51QF8V)
+
 ## Screenshots
 
 ![Light and Dark](https://i.imgur.com/Z1BnG9P.jpg)
@@ -56,6 +58,4 @@ Heavily modified mixture of code from multiple sources, but mostly:
 • [u/muckSponge](https://www.reddit.com/user/muckSponge)
 
 Feel free to drop by and look into their projects, they're much better at this than me.
-
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E51QF8V)
 
