@@ -10,7 +10,7 @@ Firefox Review is a css redesign of the browser, changing the look of Firefox to
 
 ![Moon](https://i.imgur.com/AxQE1Sl.png)
 
-![Sun](https://i.imgur.com/GLj4IWj.jpg)
+![Sun](https://i.imgur.com/8ELESdd.jpg)
 
 ## Installing
 
