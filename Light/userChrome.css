@@ -89,8 +89,8 @@ toolbarbutton.bookmark-item {
 	background-color: var(--orbit_color) !important;
 }
 
-
 /*================== CAPTION BUTTONS ==================*/
+
 .titlebar-buttonbox {
     position: relative;
     margin-right: 0px;
@@ -142,6 +142,9 @@ toolbarbutton.bookmark-item {
 .titlebar-button.titlebar-max > .toolbarbutton-icon {
 	list-style-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g transform="matrix(1,0,0,1,-599,-254)"><g id="max_btn" transform="matrix(0.707107,-0.707107,0.707107,0.707107,-9.17935,502.829)"><path d="M602,263L610,263L610,260.995L613,263.995L610,266.995L610,264.99L602,264.99L602,266.995L599,263.995L602,260.995L602,263Z" style="fill:rgb(144,145,146);"/></g></g></svg>');
 }
+.titlebar-button.titlebar-restore > .toolbarbutton-icon {
+	list-style-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g transform="matrix(1,0,0,1,-599,-254)"><g id="max_btn" transform="matrix(0.707107,-0.707107,0.707107,0.707107,-9.17935,502.829)"><path d="M602,263L610,263L610,260.995L613,263.995L610,266.995L610,264.99L602,264.99L602,266.995L599,263.995L602,260.995L602,263Z" style="fill:rgb(144,145,146);"/></g></g></svg>');
+}
 .titlebar-button.titlebar-close > .toolbarbutton-icon {
     list-style-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g transform="matrix(1,0,0,1,-632,-255)"><path id="close_btn" d="M638.979,260.586L643.221,256.343L644.635,257.757L640.393,262L644.635,266.243L643.221,267.657L638.979,263.414L634.736,267.657L633.322,266.243L637.564,262L633.322,257.757L634.736,256.343L638.979,260.586Z" style="fill:rgb(144,145,146);"/></g></svg>');
 }
@@ -151,10 +154,12 @@ toolbarbutton.bookmark-item {
 .titlebar-button.titlebar-max:hover > .toolbarbutton-icon {
 	list-style-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g transform="matrix(1,0,0,1,-599,-254)"><g id="max_btn" transform="matrix(0.707107,-0.707107,0.707107,0.707107,-9.17935,502.829)"><path d="M602,263L610,263L610,260.995L613,263.995L610,266.995L610,264.99L602,264.99L602,266.995L599,263.995L602,260.995L602,263Z" style="fill:rgb(163,200,140);"/></g></g></svg>');
 }
+.titlebar-button.titlebar-restore:hover > .toolbarbutton-icon {
+	list-style-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g transform="matrix(1,0,0,1,-599,-254)"><g id="max_btn" transform="matrix(0.707107,-0.707107,0.707107,0.707107,-9.17935,502.829)"><path d="M602,263L610,263L610,260.995L613,263.995L610,266.995L610,264.99L602,264.99L602,266.995L599,263.995L602,260.995L602,263Z" style="fill:rgb(163,200,140);"/></g></g></svg>');
+}
 .titlebar-button.titlebar-close:hover > .toolbarbutton-icon {
     list-style-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g transform="matrix(1,0,0,1,-632,-255)"><path id="close_btn" d="M638.979,260.586L643.221,256.343L644.635,257.757L640.393,262L644.635,266.243L643.221,267.657L638.979,263.414L634.736,267.657L633.322,266.243L637.564,262L633.322,257.757L634.736,256.343L638.979,260.586Z" style="fill:rgb(191,97,106);"/></g></svg>');
 }
-
 
 /*================== NEW TAB BUTTON ==================*/
 toolbar #tabs-newtab-button:not([disabled="true"]):not([checked]):not([open]):not(:active) > .toolbarbutton-icon,
@@ -183,7 +188,7 @@ toolbar#nav-bar toolbarbutton #fxa-avatar-image {
 }
 #urlbar.megabar > #urlbar-background {
 	border-radius: 3px !important;
-	border: 0 !important;
+	border: 0px !important;
 	background: var(--base_color2) !important;
 }
 #urlbar.megabar:not([focused="true"]) > #urlbar-background,
@@ -208,6 +213,32 @@ toolbar#nav-bar toolbarbutton #fxa-avatar-image {
 }
 .urlbarView-url {
 	color: var(--outer_color1) !important;
+}
+
+.urlbar-input-container{
+	background: var(--base_color2) !important;
+}
+
+.urlbarView-body-inner	{
+	border-top: 1px solid var(--base_color3) !important;
+}
+
+#urlbar[breakout][breakout-extend]	{
+	top: 0px !important;
+}
+
+#urlbar:not([focused="true"]) > #urlbar-background, #navigator-toolbox #searchbar:not([focus-within])	{
+	background: var(--base_color2) !important;
+	border-color: var(--base_color2) !important;
+	border-width: 0 !important;
+	border-radius: 3px !important;
+}
+
+#urlbar[focused="true"] > #urlbar-background, #navigator-toolbox #searchbar[focus-within]	{
+	background: var(--base_color2) !important;
+	border-color: var(--base_color2) !important;
+	border-width: 0 !important;
+	border-radius: 3px !important;
 }
 
 #star-button[starred] {
