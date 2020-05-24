@@ -28,7 +28,11 @@
  body { background-color: var(--page_bg_color) !important;}
  html {--in-content-page-background: var(--page_bg_color) !important;}
  .wordmark	{fill: var(--firefox_color) !important;}
+ .SnippetBaseContainer	{background-color: var(--search_bg_color) !important;
+ 	color: var(--search_txt_color) !important;}
+ .ASRouterButton	{border-radius: 3px !important;}
 }
+
 
 /*================== SEARCH BAR ==================*/
 .search-wrapper input {
