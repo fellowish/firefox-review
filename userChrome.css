@@ -1,53 +1,6 @@
-/*================ GLOBAL COLORS ================*/
-:root {
-	--dark_color1: #1c1b21;
-	--dark_color2: #33313c;
-	--dark_color3: #4b4757;
-	--dark_color4: #635d73;
+/*================ IMPORT COLORS ================*/
+@import "userColors.css";
 
-	--word_color1: #9059ff;
-	--word_color2: #adabb9;
-	--word_color3: #e1e0e6;
-
-	--light_color1: #e1e0e6;
-	--light_color2: #adabb9;
-	--light_color3: #9795a3;
-	--light_color4: #878492;
-
-	--other_color1: #332e56;
-	--other_color2: #4b4757;
-	--other_color3: #33313c;
-}
-/*================ LIGHT THEME ================*/
-@media (prefers-color-scheme: light) {
-:root {
-	--base_color1: var(--light_color1);
-	--base_color2: var(--light_color2);
-	--base_color3: var(--light_color3);
-	--base_color4: var(--light_color4);
-
-	--outer_color1: var(--other_color1);
-	--outer_color2: var(--other_color2);
-	--outer_color3: var(--other_color3);
-
-	--orbit_color: var(--dark_color3);
-}
-}
-/*================ DARK THEME ================*/
-@media (prefers-color-scheme: dark) {
-:root {
-	--base_color1: var(--dark_color1);
-	--base_color2: var(--dark_color2);
-	--base_color3: var(--dark_color3);
-	--base_color4: var(--dark_color4);
-
-	--outer_color1: var(--word_color1);
-	--outer_color2: var(--word_color2);
-	--outer_color3: var(--word_color3);
-
-	--orbit_color: var(--light_color3);
-}
-}
 /*================== MAIN HEADER ==================*/
 toolbox#navigator-toolbox  {
 	border: 0 !important;
@@ -125,6 +78,7 @@ toolbarbutton.bookmark-item {
 	background-color: var(--orbit_color) !important;
 }
 
+
 /*================== CAPTION BUTTONS ==================*/
 
 .titlebar-buttonbox {
@@ -176,10 +130,10 @@ toolbarbutton.bookmark-item {
 	list-style-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g transform="matrix(1,0,0,1,-267,-272)"><g id="min_btn"><rect x="269" y="278" width="10" height="2" style="fill:rgb(144,145,146);"/></g></g></svg>');
 }
 .titlebar-button.titlebar-max > .toolbarbutton-icon {
-	list-style-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g transform="matrix(1,0,0,1,-599,-254)"><g id="max_btn" transform="matrix(0.707107,-0.707107,0.707107,0.707107,-9.17935,502.829)"><path d="M602,263L610,263L610,260.995L613,263.995L610,266.995L610,264.99L602,264.99L602,266.995L599,263.995L602,260.995L602,263Z" style="fill:rgb(144,145,146);"/></g></g></svg>');
+	list-style-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g><g id="max_btn"><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_4" y2="3" x2="12" y1="3" x1="2" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(144,145,146)" fill="none"/><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_5" y2="12" x2="3" y1="2" x1="3" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(144,145,146)" fill="none"/><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_7" y2="2" x2="11" y1="12" x1="11" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(144,145,146)" fill="none"/><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_8" y2="11" x2="12" y1="11" x1="2" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(144,145,146)" fill="none"/></g></g></svg>');
 }
 .titlebar-button.titlebar-restore > .toolbarbutton-icon {
-	list-style-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g transform="matrix(1,0,0,1,-599,-254)"><g id="max_btn" transform="matrix(0.707107,-0.707107,0.707107,0.707107,-9.17935,502.829)"><path d="M602,263L610,263L610,260.995L613,263.995L610,266.995L610,264.99L602,264.99L602,266.995L599,263.995L602,260.995L602,263Z" style="fill:rgb(144,145,146);"/></g></g></svg>');
+	list-style-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g><g id="max_btn"><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_4" y2="3" x2="12" y1="3" x1="2" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(144,145,146)" fill="none"/><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_5" y2="12" x2="3" y1="2" x1="3" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(144,145,146)" fill="none"/><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_7" y2="2" x2="11" y1="12" x1="11" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(144,145,146)" fill="none"/><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_8" y2="11" x2="12" y1="11" x1="2" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(144,145,146)" fill="none"/></g></g></svg>');
 }
 .titlebar-button.titlebar-close > .toolbarbutton-icon {
     list-style-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g transform="matrix(1,0,0,1,-632,-255)"><path id="close_btn" d="M638.979,260.586L643.221,256.343L644.635,257.757L640.393,262L644.635,266.243L643.221,267.657L638.979,263.414L634.736,267.657L633.322,266.243L637.564,262L633.322,257.757L634.736,256.343L638.979,260.586Z" style="fill:rgb(144,145,146);"/></g></svg>');
@@ -188,10 +142,10 @@ toolbarbutton.bookmark-item {
 	list-style-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g transform="matrix(1,0,0,1,-267,-272)"><g id="min_btn"><rect x="269" y="278" width="10" height="2" style="fill:rgb(235,203,139);"/></g></g></svg>');
 }
 .titlebar-button.titlebar-max:hover > .toolbarbutton-icon {
-	list-style-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g transform="matrix(1,0,0,1,-599,-254)"><g id="max_btn" transform="matrix(0.707107,-0.707107,0.707107,0.707107,-9.17935,502.829)"><path d="M602,263L610,263L610,260.995L613,263.995L610,266.995L610,264.99L602,264.99L602,266.995L599,263.995L602,260.995L602,263Z" style="fill:rgb(163,200,140);"/></g></g></svg>');
+	list-style-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g><g id="max_btn"><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_4" y2="3" x2="12" y1="3" x1="2" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(163,200,140)" fill="none"/><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_5" y2="12" x2="3" y1="2" x1="3" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(163,200,140)" fill="none"/><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_7" y2="2" x2="11" y1="12" x1="11" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(163,200,140)" fill="none"/><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_8" y2="11" x2="12" y1="11" x1="2" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(163,200,140)" fill="none"/></g></g></svg>');
 }
 .titlebar-button.titlebar-restore:hover > .toolbarbutton-icon {
-	list-style-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g transform="matrix(1,0,0,1,-599,-254)"><g id="max_btn" transform="matrix(0.707107,-0.707107,0.707107,0.707107,-9.17935,502.829)"><path d="M602,263L610,263L610,260.995L613,263.995L610,266.995L610,264.99L602,264.99L602,266.995L599,263.995L602,260.995L602,263Z" style="fill:rgb(163,200,140);"/></g></g></svg>');
+	list-style-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g><g id="max_btn"><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_4" y2="3" x2="12" y1="3" x1="2" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(163,200,140)" fill="none"/><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_5" y2="12" x2="3" y1="2" x1="3" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(163,200,140)" fill="none"/><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_7" y2="2" x2="11" y1="12" x1="11" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(163,200,140)" fill="none"/><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_8" y2="11" x2="12" y1="11" x1="2" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(163,200,140)" fill="none"/></g></g></svg>');
 }
 .titlebar-button.titlebar-close:hover > .toolbarbutton-icon {
     list-style-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g transform="matrix(1,0,0,1,-632,-255)"><path id="close_btn" d="M638.979,260.586L643.221,256.343L644.635,257.757L640.393,262L644.635,266.243L643.221,267.657L638.979,263.414L634.736,267.657L633.322,266.243L637.564,262L633.322,257.757L634.736,256.343L638.979,260.586Z" style="fill:rgb(191,97,106);"/></g></svg>');
@@ -206,6 +160,7 @@ toolbar #tabs-newtab-button:not([disabled="true"]):-moz-any([open], [checked], :
 	border-radius: 3px !important;
 	background-color: var(--base_color1) !important;
 }
+
 toolbar #tabs-newtab-button:not([disabled="true"]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-icon {
 	background-color: var(--base_color3) !important;
 }
@@ -216,22 +171,27 @@ toolbar#nav-bar {
 	background: var(--base_color1) !important;
 	box-shadow: none !important;
 	padding-bottom: 3px !important;
+	--toolbarbutton-icon-fill-attention:var(--outer_color3);
 }
+
 toolbar#nav-bar toolbarbutton .toolbarbutton-icon,
 toolbar#nav-bar toolbarbutton #fxa-avatar-image {
 	transition: all 0.3s ease !important;
 	fill: var(--orbit_color) !important;
 }
+
 #urlbar.megabar > #urlbar-background {
 	border-radius: 3px !important;
 	border: 0px !important;
 	background: var(--base_color2) !important;
 }
+
 #urlbar.megabar:not([focused="true"]) > #urlbar-background,
 #urlbar.megabar > #urlbar-input-container {
 	border-radius: 3px !important;
 	color: var(--orbit_color) !important;
 }
+
 #PersonalToolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover, .tabbrowser-arrowscrollbox:not([scrolledtostart="true"])::part(scrollbutton-up):hover, .tabbrowser-arrowscrollbox:not([scrolledtoend="true"])::part(scrollbutton-down):hover, .findbar-button:not(:-moz-any([checked="true"], [disabled="true"])):hover, toolbarbutton.bookmark-item:not(.subviewbutton):hover:not([disabled="true"]):not([open]), toolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-icon, toolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-text, toolbar .toolbarbutton-1:not([disabled="true"]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-badge-stack {
 	background: var(--base_color2) !important;
 }
@@ -247,6 +207,7 @@ toolbar#nav-bar toolbarbutton #fxa-avatar-image {
 #urlbar {
 	color: var(--orbit_color) !important;
 }
+
 .urlbarView-url {
 	color: var(--outer_color1) !important;
 }
@@ -303,9 +264,11 @@ toolbar#nav-bar toolbarbutton #fxa-avatar-image {
 .sidebar-panel[lwt-sidebar-brighttext] {
 	background-color: var(--base_color1) !important;
 }
+
 #sidebar-header {
 	border-color: var(--base_color2) !important;
 }
+
 .sidebar-splitter {
 	border-color: var(--base_color2) !important;
 }
@@ -322,9 +285,11 @@ toolbar#nav-bar toolbarbutton #fxa-avatar-image {
 #viewButton[open] {
 	background-color: var(--base_color2) !important;
 }
+
 .sidebar-placesTreechildren {
 	color: var(--orbit_color) !important;
 }
+
 #search-box,
 .search-box {
 	-moz-appearance: none !important;
@@ -332,15 +297,33 @@ toolbar#nav-bar toolbarbutton #fxa-avatar-image {
 	border-radius: 3px !important;
 	color: var(--orbit_color) !important;
 }
+
 .content-container {
 	background-color: var(--base_color1) !important;
 	color: var(--orbit_color) !important;
 }
+
 #viewButton {
 	color: var(--orbit_color) !important;
 }
 
-/*-----------------HAMBURGER--------------------*/
+/*========== CUSTOMIZATION PAGE ===========*/
+#customization-container {
+	--toolbar-bgcolor:var(--base_color1) !important; 
+}
+#customization-done-button {
+	background-color:var(--outer_color1)!important;
+	border-color:var(--orbit_color)!important;
+	color:var(--outer_color3);
+}
+
+#customization-done-button:hover {
+	background-color:var(--outer_color1)!important;
+	border-color:var(--outer_color2)!important;
+	color:var(--outer_color3);
+}
+
+/*============== HAMBURGER =============*/
 
 .panel-arrow {
 	fill: var(--base_color1) !important;
@@ -356,7 +339,7 @@ toolbar#nav-bar toolbarbutton #fxa-avatar-image {
 	color: var(--outer_color1) !important;
 	fill: var(--outer_color1) !important;
 	border-color: var(--outer_color1) !important;
-	border-radius: 0px !important;
+	border-radius: 3px !important;
 	background-color: var(--base_color1) !important;
 }
 
@@ -642,7 +625,7 @@ scrollbox[orient=vertical]
 	-moz-appearance: none !important;
 	-moz-context-properties: fill !important;
 	fill: currentColor !important;
-	list-style-image: url(menu-right-2x.svg) !important;
+	list-style-image: url(<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" fill="context-fill" fill-opacity="context-fill-opacity" d="M5.5,2.5l5.25,5.25L5.5,13V2.5Z"/></svg>) !important;
 	margin-inline-end: 0 !important;
 	margin-inline-start: 16px !important;
 }
@@ -658,7 +641,7 @@ menuitem[type="radio"] > .menu-iconic-left > .menu-iconic-icon
 menuitem[checked="true"] > .menu-iconic-left > .menu-iconic-icon
 {
 
-	list-style-image: url(checkmark-18dp.svg) !important;
+	list-style-image: url('<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"><polyline points="2 10.5 6 14.5 16.5 4" fill="none" stroke="context-fill" stroke-opacity="context-fill-opacity" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/></svg>') !important;
 }
 
 #context-navigation
@@ -860,8 +843,12 @@ panelmultiview .toolbaritem-combined-buttons > spacer.after-label
 .PanelUI-subView .subviewbutton-nav::after
 {
 	transform: none !important;
-	content: url(menu-right-1x.svg) !important;
+	content: url('<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="context-fill" fill-opacity="context-fill-opacity" d="M5,2l6,6L5,14V2Z"/></svg>') !important;
 	fill-opacity: 1 !important;
+}
+
+#identity-popup .panel-arrowcontainer > .panel-arrowcontent {
+	background: var(--base_color1) !important;
 }
 
 #identity-popup > .panel-arrowcontainer > .panel-arrowcontent
@@ -954,6 +941,7 @@ panelmultiview .toolbaritem-combined-buttons > spacer.after-label
 {
 	-moz-box-align: start !important;
 	padding: 16px !important;
+	/*background: var(--base_color1) !important; (1.2)*/
 }
 
 #identity-popup-securityView-body
@@ -1029,7 +1017,7 @@ panelmultiview .toolbaritem-combined-buttons > spacer.after-label
 .identity-popup-content-blocking-category::after
 {
 	transform: translateY(1px) !important;
-	content: url(menu-right-1x.svg) !important;
+	content: url('<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="context-fill" fill-opacity="context-fill-opacity" d="M5,2l6,6L5,14V2Z"/></svg>') !important;
 	margin: 0 !important;
 }
 
@@ -1263,7 +1251,7 @@ panelmultiview .toolbaritem-combined-buttons > spacer.after-label
 .customization-uidensity-menuitem
 {
 	padding: 0 16px !important;
-	margin: 0 -16px !important;
+	margin: 0 0px !important;
 	border: 0 !important;
 	height: 48px !important;
 }
@@ -1271,8 +1259,8 @@ panelmultiview .toolbaritem-combined-buttons > spacer.after-label
 .customization-lwtheme-menu-theme .toolbarbutton-icon,
 .customization-uidensity-menuitem .menu-iconic-icon
 {
-	margin: 0 !important;
-	margin-inline-end: 16px !important;
+	margin: 0 0px !important;
+	margin-inline-end: 8px !important;
 	padding: 0 !important;
 	width: 24px !important;
 	height: 24px !important;
@@ -1287,7 +1275,7 @@ panelmultiview .toolbaritem-combined-buttons > spacer.after-label
 .customization-lwtheme-menu-theme[active]::after,
 .customization-uidensity-menuitem[active]::after
 {
-	content: url(checkmark-18dp.svg) !important;
+	content: url('<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"><polyline points="2 10.5 6 14.5 16.5 4" fill="none" stroke="context-fill" stroke-opacity="context-fill-opacity" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/></svg>') !important;
 	-moz-context-properties: fill, fill-opacity !important;
 	fill: currentColor !important;
 	display: -moz-box !important;
@@ -1308,16 +1296,18 @@ panelmultiview .toolbaritem-combined-buttons > spacer.after-label
 #customization-lwtheme-menu-footer toolbarbutton
 {
 	border: 0 !important;
-	margin: 0 -6px 0 !important;
+	margin: 0 0px !important;
 	height: 48px !important;
-	padding: 0 16px !important;
+	padding: 0 0px !important;
 	display: flex !important;
 	background-image: none !important;
 }
 
 #customization-lwtheme-menu-footer toolbarbutton .toolbarbutton-text
 {
-	text-align: start !important;
+	justify-content: center !important;
+	padding-bottom: 8px !important;
+	margin: 0 0px !important;
 }
 
 .panel-footer
@@ -1436,6 +1426,6 @@ richlistitem:-moz-any(
 	.PanelUI-subView .subviewbutton-nav::after,
 	.identity-popup-content-blocking-category::after
 	{
-		content: url(menu-right-2x.svg) !important;
+		content: url('<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" fill="context-fill" fill-opacity="context-fill-opacity" d="M5.5,2.5l5.25,5.25L5.5,13V2.5Z"/></svg>') !important;
 	}
 }
