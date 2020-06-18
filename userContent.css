@@ -1,6 +1,10 @@
 /*================ IMPORT COLORS ================*/
 @import "userColors.css";
 
+/*================ SCROLLBARS ================*/
+:root { scrollbar-color: #635d73 #323234 }
+*{ scrollbar-width: thin }
+
 /*================== FIREFOX BG COLOR ==================*/
 @-moz-document url("about:newtab"), url("about:home"), url("about:blank"), url("about:support"), url("about:config") {
 /*Light*/

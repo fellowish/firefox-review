@@ -1,6 +1,10 @@
 /*================ IMPORT COLORS ================*/
 @import "userColors.css";
 
+/*================ SCROLLBARS ================*/
+:root { scrollbar-color: #635d73 #323234 }
+*{ scrollbar-width: none }
+
 /*================== MAIN HEADER ==================*/
 toolbox#navigator-toolbox  {
 	border: 0 !important;
