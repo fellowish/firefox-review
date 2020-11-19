@@ -121,14 +121,14 @@ html[lwt-newtab-brighttext] {--in-content-page-background: var(--dark_color1) !i
 }
 /*Sepia*/
   body.loaded.sepia {
-    --toolbar-bgcolor: var(--light_color2) !important;
-    --toolbar-border: var(--light_color1) !important;
-    --toolbar-hover: var(--light_color3) !important;
-    --popup-bgcolor: var(--light_color2) !important;
-    --popup-border: var(--light_color3) !important;
-    --font-color: var(--other_color3) !important;
-    --icon-fill: var(--other_color3) !important;
-    background: var(--light_color1) !important;
+    --toolbar-bgcolor: var(--sepia_color2) !important;
+    --toolbar-border: var(--sepia_color1) !important;
+    --toolbar-hover: var(--sepia_color3) !important;
+    --popup-bgcolor: var(--sepia_color2) !important;
+    --popup-border: var(--sepia_color3) !important;
+    --font-color: var(--deep_color3) !important;
+    --icon-fill: var(--deep_color3) !important;
+    background: var(--sepia_color1) !important;
 }
 
   }
