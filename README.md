@@ -1,6 +1,6 @@
 # Firefox Review
 
-Firefox Review is a css redesign of the browser, changing the look of Firefox to match the color scheme and design language of [Firefox Preview](https://play.google.com/store/apps/details?id=org.mozilla.fenix&hl=en_US), a newer mobile version of Firefox being developed. With v1.1, both light and dark themes are available, and with v1.1.2, both themes are easily selectable within the browser. There's even a new theme for private browsing!
+Firefox Review is a css redesign of the browser, changing the look of Firefox to match the color scheme and design language of [Firefox Preview](https://play.google.com/store/apps/details?id=org.mozilla.fenix&hl=en_US), a newer mobile version of Firefox being developed. With v1.1, both light and dark themes are available, and with v1.1.3, both themes are easily selectable both within the browser and from your Operating System. There's even a new theme for private browsing!
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E51QF8V)
 
@@ -14,7 +14,7 @@ Firefox Review is a css redesign of the browser, changing the look of Firefox to
 
 ### Themes
 
-To switch between the light and dark themes of Firefox Review, simply go to the Customizations Menu and select either "Light", or "Dark". The theme of Firefox Review will automatically update depending on the choice you make.
+To switch between the light and dark themes of Firefox Review, simply go to the Customizations Menu and select either "Light", "Dark", or "Default". The theme of Firefox Review will automatically update depending on the choice you make. Selecting "Default" will have Firefox Review's theme automatically follow the theme selected from your Windows OS.
 
 If you wish to customize Firefox Review's color scheme, simply look in the userColors.css file and edit the colors there.
 
