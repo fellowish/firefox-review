@@ -1,4 +1,5 @@
 :root {
+/*Dark*/
 	--dark_color1: #1c1b21;
 	--dark_color2: #33313c;
 	--dark_color3: #4b4757;
@@ -7,7 +8,7 @@
 	--word_color1: #9059ff;
 	--word_color2: #adabb9;
 	--word_color3: #e1e0e6;
-
+/*Light*/
 	--light_color1: #e1e0e6;
 	--light_color2: #adabb9;
 	--light_color3: #9795a3;
@@ -16,7 +17,49 @@
 	--other_color1: #332e56;
 	--other_color2: #4b4757;
 	--other_color3: #33313c;
+/*Sepia*/
+	--sepia_color1: #f2edda;
+	--sepia_color2: #dfd3bf;
+	--sepia_color3: #d1baa3;
+	--sepia_color4: #baa088;
+
+	--deep_color1: #56abe4;
+	--deep_color2: #786352;
+	--deep_color3: #574537;
 }
+
+/*============== ADAPTIVE THEME ================*/
+/*Dark*/
+@media (prefers-color-scheme: dark) {
+:root {
+	--base_color1: var(--dark_color1);
+	--base_color2: var(--dark_color2);
+	--base_color3: var(--dark_color3);
+	--base_color4: var(--dark_color4);
+
+	--outer_color1: var(--word_color1);
+	--outer_color2: var(--word_color2);
+	--outer_color3: var(--word_color3);
+
+	--orbit_color: var(--light_color3);
+}
+}
+/*Light*/
+@media (prefers-color-scheme: light) {
+:root {
+	--base_color1: var(--light_color1);
+	--base_color2: var(--light_color2);
+	--base_color3: var(--light_color3);
+	--base_color4: var(--light_color4);
+
+	--outer_color1: var(--other_color1);
+	--outer_color2: var(--other_color2);
+	--outer_color3: var(--other_color3);
+
+	--orbit_color: var(--dark_color3);
+}
+}
+
 /*================ LIGHT THEME ================*/
 @media {
 :root:not([style]),
@@ -52,7 +95,7 @@
 /*============== PRIVATE THEME ==============*/
 @media {
 :root[privatebrowsingmode=temporary] {
-	--base_color1: #291D4F;
+	--base_color1: #25003e;
 	--base_color2: #3C3376;
 	--base_color3: #4F499D;
 	--base_color4: #625FC4;
