@@ -6,7 +6,7 @@ Firefox Review is a css redesign of the browser, changing the look of Firefox to
 
 ## Screenshots
 
-![Light and Dark](https://i.imgur.com/Z1BnG9P.jpg)
+![Eclipse](https://i.imgur.com/WKENQ6f.png)
 
 ![Moon](https://i.imgur.com/AxQE1Sl.png)
 
