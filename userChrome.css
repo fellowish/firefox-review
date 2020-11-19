@@ -75,7 +75,8 @@ toolbarbutton.bookmark-item {
 	-moz-appearance: none !important;
 	width: 1px;
 	margin: 0 8px !important;
-	background-color: var(--orbit_color) !important;
+	color: var(--orbit_color) !important;
+	background-color: var(--base_color1) !important;
 }
 
 
