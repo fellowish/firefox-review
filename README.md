@@ -1,6 +1,6 @@
 # Firefox Review
 
-Firefox Review is a css redesign of the browser, changing the look of Firefox to match the color scheme and design language of [Firefox Preview](https://play.google.com/store/apps/details?id=org.mozilla.fenix&hl=en_US), a newer mobile version of Firefox being developed. With v1.1, both light and dark themes are available, and with v1.1.3, both themes are easily selectable both within the browser and from your Operating System. There's even a new theme for private browsing!
+Firefox Review is a css redesign of the browser, changing the look of Firefox to match the color scheme and design language of [Firefox Preview](https://play.google.com/store/apps/details?id=org.mozilla.fenix&hl=en_US), a newer mobile version of Firefox being developed. With v1.1, both light and dark themes are available, and with v1.1.3, both themes are easily selectable both within the browser and from your Operating System.
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E51QF8V)
 
