@@ -46,6 +46,16 @@ html[lwt-newtab-brighttext] {--in-content-page-background: var(--dark_color1) !i
 	box-shadow: none !important;
 	color: var(--word_color3) !important;
 }
+/*Private*/
+html.private .search-wrapper input {
+    transition: all 0.3s ease !important;
+    background: var(--dark_color2) var(--newtab-search-icon) 12px center no-repeat !important;
+    background-size: 20px !important;
+    border: 1px solid !important;
+    border-color: #4F499D !important;
+    box-shadow: none !important;
+    color: #FFF5FF !important;
+}
 /*Light*/
 .search-wrapper .search-inner-wrapper:hover input,
 .search-wrapper .search-inner-wrapper:active input,
@@ -57,6 +67,12 @@ html[lwt-newtab-brighttext] {--in-content-page-background: var(--dark_color1) !i
 [lwt-newtab-brighttext] .search-wrapper .search-inner-wrapper:active input,
 [lwt-newtab-brighttext] .search-wrapper input:focus {
 	border-color: var(--dark_color4) !important;
+}
+/*Private*/
+[private] .search-wrapper .search-inner-wrapper:hover input,
+[private] .search-wrapper .search-inner-wrapper:active input,
+[private] .search-wrapper input:focus {
+    border-color: #625FC4 !important;
 }
 /*Light*/
 .search-wrapper .search-button,
@@ -70,6 +86,12 @@ html[lwt-newtab-brighttext] {--in-content-page-background: var(--dark_color1) !i
 	transition: all 0.3s ease !important;
 	fill: var(--word_color3) !important;
 }
+/*Private*/
+[private] .search-wrapper .search-button,
+[private] .search-wrapper .search-button {
+    transition: all 0.3s ease !important;
+    fill: #FFF5FF !important;
+}
 /*Light*/
 .search-wrapper .search-button:focus,
 .search-wrapper .search-button:hover {
@@ -79,6 +101,11 @@ html[lwt-newtab-brighttext] {--in-content-page-background: var(--dark_color1) !i
 [lwt-newtab-brighttext] .search-wrapper .search-button:focus,
 [lwt-newtab-brighttext] .search-wrapper .search-button:hover {
     background-color: var(--dark_color4) !important;
+}
+/*Private*/
+[private] .search-wrapper .search-button:focus,
+[private] .search-wrapper .search-button:hover {
+    background-color: #625FC4 !important;
 }
 
 /*================== READER VIEW ==================*/
@@ -102,6 +129,7 @@ html[lwt-newtab-brighttext] {--in-content-page-background: var(--dark_color1) !i
     background: var(--dark_color1) !important;
     --blue-40:var(--word_color1) !important;
     --blue-40-a30:rgba(144,89,255,0.3) !important;
+    --selected-background:rgba(144,89,255,0.3) !important;
     --active-color:var(--word_color1) !important;
 }
 /*Light*/
@@ -116,6 +144,7 @@ html[lwt-newtab-brighttext] {--in-content-page-background: var(--dark_color1) !i
     background: var(--light_color1) !important;
     --blue-40:var(--other_color1) !important;
     --blue-40-a30:rgba(51,46,86,0.3) !important;
+    --selected-background:rgba(51,46,86,0.3) !important;
     --active-color:var(--other_color1) !important;
 
 }
