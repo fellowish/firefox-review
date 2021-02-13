@@ -59,7 +59,7 @@ Heavily modified mixture of code from multiple sources, but mostly:
 
 • [u/dpcdpc11](https://www.reddit.com/user/dpcdpc11) and
 
-• [u/muckSponge](https://www.reddit.com/user/muckSponge)
+• [M1ch431](https://github.com/M1ch431)
 
 Feel free to drop by and look into their projects, they're much better at this than me.
 
