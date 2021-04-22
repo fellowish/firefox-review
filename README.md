@@ -1,6 +1,8 @@
 # Firefox Review
 
-Firefox Review is a css redesign of the browser, changing the look of Firefox to match the color scheme and design language of [Firefox Preview](https://play.google.com/store/apps/details?id=org.mozilla.fenix&hl=en_US), a newer mobile version of Firefox being developed. With v1.1, both light and dark themes are available, and with v1.1.4, the right click menu, and other menus, have been better realized.
+Firefox Review was a css redesign of the browser, changing the look of Firefox to match the color scheme and design language of [Firefox Preview](https://play.google.com/store/apps/details?id=org.mozilla.fenix&hl=en_US), a newer mobile version of Firefox being developed. With v1.1, both light and dark themes are available, and with v1.1.4, the right click menu, and other menus, have been better realized.
+
+**Development of this theme is no longer occurring, as the Photon UI is essentially the same as Firefox Review. This repository is kept up purely for individuals who are running older versions of Firefox that are Pre-Proton.**
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E51QF8V)
 
